@@ -1,0 +1,5 @@
+# views/tickets/_ticket.html.erb
+<%= content_tag :div, id: dom_id(ticket) do %>
+  <h1><%= ticket.title %></h1>
+  <p><%= ticket.content %></p>
+<% end %>
